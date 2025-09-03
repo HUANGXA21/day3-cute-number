@@ -20,7 +20,7 @@ public class Table {
     }
 
     private static boolean isWithinRange(int start, int end) {
-        return (start >= 1 && start <= 1000) || (end >= 1 && end <= 1000);
+        return (start >= 1 && start <= 1000) && (end >= 1 && end <= 1000);
     }
 
     private static String generateMultiplicationTable(int start, int end) {
